@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author aniketmirajkar
+ * @author shwetabulchandani
  */
 public class EspousalOrganization extends Organization{
     String name;
