@@ -5,7 +5,7 @@
 package Business.Donor;
 
 /**
- *
+ *Class to represent Donor class
  * @author khyati
  */
 public class Donor {
