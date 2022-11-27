@@ -9,8 +9,8 @@ import Business.Role.Role;
 import Business.WorkQueue.WorkQueue;
 
 /**
- *
- * @author raunak
+ *class to represent user account
+ * @author parag
  */
 public class UserAccount {
     
