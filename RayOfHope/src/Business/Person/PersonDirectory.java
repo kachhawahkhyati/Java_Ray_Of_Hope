@@ -36,5 +36,14 @@ public class PersonDirectory {
         personList = new ArrayList<Person>();
     }
 
-  
+    public Person addPerson() {
+        Person ch = new Person();
+        personList.add(ch);
+        return ch;
+    }
+
+    public void removePerson(Person ch) {
+        personList.remove(ch);
+    }
+
 }
