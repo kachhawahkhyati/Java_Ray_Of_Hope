@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
+ * create user account and authenticate user .
  * @author parag
  */
 public class UserAccountDirectory {
