@@ -16,7 +16,7 @@ import javax.mail.internet.MimeMessage;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * Send Mail Functionality added
  * @author shwetabulchandani
  */
 public class SendMail {
