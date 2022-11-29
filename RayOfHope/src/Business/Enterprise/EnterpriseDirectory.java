@@ -10,7 +10,7 @@ import Business.Network.Network;
 import java.util.ArrayList;
 
 /**
- *
+ *CREATE AND ADD ENTERPRISE
  * @author parag
  */
 public class EnterpriseDirectory {
