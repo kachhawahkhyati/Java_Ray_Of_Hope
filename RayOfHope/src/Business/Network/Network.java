@@ -7,7 +7,7 @@ package Business.Network;
 import Business.Enterprise.EnterpriseDirectory;
 
 /**
- *  
+ *  Network class
  * @author shwetabulchandani
  */
 public class Network {
