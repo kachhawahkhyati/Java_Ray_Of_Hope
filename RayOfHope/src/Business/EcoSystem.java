@@ -18,7 +18,7 @@ import Business.UserAccount.UserAccount;
 import java.util.ArrayList;
 
 /**
- * 
+ * creating ecosystem
  * @author shwetabulchandani
  */
 public class EcoSystem extends Organization {
