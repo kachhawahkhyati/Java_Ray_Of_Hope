@@ -65,6 +65,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         manageOrganisation();
     }
      
+     // Manage Organisation
      private void manageOrganisation() {
         ManageOrganizationJPanel panel = new ManageOrganizationJPanel(rightSystemAdminPanel, enterprise.getOrganizationDirectory(), enterprise);
         rightSystemAdminPanel.add("ManageNetworkJPanel", panel);
@@ -72,6 +73,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         layout.next(rightSystemAdminPanel);
     }
 
+     // Manage Employee
     private void manageEmployee() {
         ManageEmployeeJPanel panel = new ManageEmployeeJPanel(rightSystemAdminPanel, enterprise.getOrganizationDirectory());
         rightSystemAdminPanel.add("ManageEnterpriseJPanel", panel);
@@ -80,13 +82,15 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
 
     }
 
+    // Manage user
     private void manageUser() {
         ManageUserAccountJPanel panel = new ManageUserAccountJPanel(rightSystemAdminPanel, enterprise, business);
         rightSystemAdminPanel.add("ManageEnterpriseAdminJPanel", panel);
         CardLayout layout = (CardLayout) rightSystemAdminPanel.getLayout();
         layout.next(rightSystemAdminPanel);
     }
-
+    
+// Manage Requests
     private void manageRequests() {
         if ("Adoption".equalsIgnoreCase(this.enterprise.getEnterpriseType().getValue())) {
             AdoptionUnitWorkRequestJPanel vOUWRJP = new AdoptionUnitWorkRequestJPanel(rightSystemAdminPanel, account, enterprise, business, adopterdirectory);
