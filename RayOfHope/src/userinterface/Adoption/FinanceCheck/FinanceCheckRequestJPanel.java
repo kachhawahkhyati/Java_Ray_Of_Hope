@@ -20,7 +20,7 @@ import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 
 /**
- *
+ * Finance Check Request JPanel
  * @author khyati
  */
 public class FinanceCheckRequestJPanel extends javax.swing.JPanel {
