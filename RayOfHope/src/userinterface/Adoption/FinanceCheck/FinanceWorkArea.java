@@ -16,7 +16,7 @@ import java.awt.CardLayout;
 import javax.swing.JPanel;
 
 /**
- *
+ * Finance Work Area
  * @author khyati
  */
 public class FinanceWorkArea extends javax.swing.JPanel {
