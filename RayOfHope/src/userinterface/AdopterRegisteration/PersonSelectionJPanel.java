@@ -62,6 +62,7 @@ public class PersonSelectionJPanel extends javax.swing.JPanel {
         populatePersonTable();
     }
     
+    // PopulatePersonTable
     public void populatePersonTable() {
         DefaultTableModel dtms = (DefaultTableModel) tblPerson.getModel();
         dtms.setRowCount(0);
