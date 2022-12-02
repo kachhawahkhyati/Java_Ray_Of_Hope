@@ -15,7 +15,7 @@ import java.awt.CardLayout;
 import javax.swing.JPanel;
 
 /**
- *
+ * Espousal Main Work Area
  * @author shwetabulchandani
  */
 public class EspousalMainWorkArea extends javax.swing.JPanel {
