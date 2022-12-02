@@ -43,6 +43,8 @@ public class AdoptionUnitWorkRequestJPanel extends javax.swing.JPanel {
     private OrganizationDirectory organizationDirectory;
     AdopterDirectory adopterdirectory;
 
+    // Adoption Unit Work Request JPanel
+    
     public AdoptionUnitWorkRequestJPanel(JPanel userProcessContainer, UserAccount account, Enterprise enterprise, EcoSystem system, AdopterDirectory adopterdirectory) {
         initComponents();
         this.userProcessContainer = userProcessContainer;
@@ -174,7 +176,8 @@ public class AdoptionUnitWorkRequestJPanel extends javax.swing.JPanel {
         });
         add(lblRefresh, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 130, 40, 40));
     }// </editor-fold>//GEN-END:initComponents
-
+// Assign Button
+    
     private void assignJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignJButtonActionPerformed
 
         int selectedRow = adpworkRequest.getSelectedRow();
