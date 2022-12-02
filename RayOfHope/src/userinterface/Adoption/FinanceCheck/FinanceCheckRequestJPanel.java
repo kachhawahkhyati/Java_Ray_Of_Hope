@@ -119,7 +119,8 @@ public class FinanceCheckRequestJPanel extends javax.swing.JPanel {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/finance.png"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 70, 680, 580));
     }// </editor-fold>//GEN-END:initComponents
-
+// Assign Action Button
+    
     private void btnAssignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAssignActionPerformed
         // TODO add your handling code here:
         int selectedRow = tblRequest.getSelectedRow();
