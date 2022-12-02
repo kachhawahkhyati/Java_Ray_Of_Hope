@@ -46,6 +46,7 @@ public class FinanceWorkArea extends javax.swing.JPanel {
         
     }
     
+    // Finance Request JPanel
     private void financeRequestJPanel(){
         FinanceCheckRequestJPanel panel = new FinanceCheckRequestJPanel(rightSystemAdminPanel, account, financeOrganization, enterprise, business, adopterdirectory);
         rightSystemAdminPanel.add("ManageNetworkJPanel",panel);
