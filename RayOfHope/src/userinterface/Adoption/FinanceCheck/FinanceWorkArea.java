@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author MyPC1
+ * @author khyati
  */
 public class FinanceWorkArea extends javax.swing.JPanel {
 
