@@ -23,7 +23,7 @@ import javax.swing.table.DefaultTableModel;
 
 
 /**
- *
+ * Person Selection JPanel
  * @author khyati
  */
 public class PersonSelectionJPanel extends javax.swing.JPanel {
