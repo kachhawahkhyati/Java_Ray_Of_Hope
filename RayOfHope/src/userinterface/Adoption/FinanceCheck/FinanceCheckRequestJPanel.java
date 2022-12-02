@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author aniketmirajkar
+ * @author khyati
  */
 public class FinanceCheckRequestJPanel extends javax.swing.JPanel {
 
