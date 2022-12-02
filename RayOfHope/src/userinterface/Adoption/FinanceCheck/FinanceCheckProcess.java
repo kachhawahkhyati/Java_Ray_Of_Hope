@@ -209,6 +209,8 @@ public class FinanceCheckProcess extends javax.swing.JPanel {
         add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 0, 40, 40));
     }// </editor-fold>//GEN-END:initComponents
 
+    // Approve Action
+    
     private void btnApproveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnApproveActionPerformed
         // TODO add your handling code here:
         int selectedRow = tblRequest.getSelectedRow();
@@ -256,7 +258,10 @@ public class FinanceCheckProcess extends javax.swing.JPanel {
         }
         txtRemarks.setText("");
     }//GEN-LAST:event_btnApproveActionPerformed
-
+ 
+    
+    // Deny Action
+    
     private void btnDenyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDenyActionPerformed
         // TODO add your handling code here:
         int selectedRow = tblRequest.getSelectedRow();
