@@ -200,6 +200,8 @@ public class AdoptionUnitWorkRequestJPanel extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_assignJButtonActionPerformed
 
+    // Process Button
+    
     private void processJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_processJButtonActionPerformed
 
          int selectedRow = adpworkRequest.getSelectedRow();
