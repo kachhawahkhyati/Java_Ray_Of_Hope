@@ -42,6 +42,7 @@ public class CheckStatusJPanel extends javax.swing.JPanel {
     int uid;
     PersonDirectory persondirectory;
     
+    // Check Status JPanel
     public CheckStatusJPanel(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business, AdopterDirectory adopterdirectory, int uid, PersonDirectory persondirectory) {
         initComponents();
         this.userProcessContainer = userProcessContainer;
