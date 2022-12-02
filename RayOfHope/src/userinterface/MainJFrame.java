@@ -22,7 +22,7 @@ import userinterface.UserRegisteration.SponsorRegistrationJPanel;
 import userinterface.UserRegisteration.AdopterRegistrationJPanel;
 
 /**
- * Main J Frame
+ * Main J Frame File
  * @author shwetabulchandani
  */
 public class MainJFrame extends javax.swing.JFrame {
