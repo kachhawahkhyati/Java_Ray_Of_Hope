@@ -17,7 +17,7 @@ import java.awt.CardLayout;
 import javax.swing.JPanel;
 
 /**
- *
+ *Adopter Work Area 
  * @author khyati
  */
 public class AdopterWorkArea extends javax.swing.JPanel {
@@ -35,7 +35,7 @@ public class AdopterWorkArea extends javax.swing.JPanel {
     String bgcstatus,financestatus;
     PersonDirectory persondirectory;
     
-    
+    // Creating Adopter work area
     public AdopterWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business, AdopterDirectory adopterdirectory, PersonDirectory persondirectory) {
         initComponents();
         this.userProcessContainer = userProcessContainer;
@@ -128,7 +128,7 @@ public class AdopterWorkArea extends javax.swing.JPanel {
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 16)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel3.setText("Hello");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, 60, 20));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 60, 20));
 
         valueLabel.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, 160, 20));
