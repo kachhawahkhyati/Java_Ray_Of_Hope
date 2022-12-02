@@ -69,6 +69,8 @@ public class AdoptionCheckProcess extends javax.swing.JPanel {
         txtSSN.setEnabled(false);
     }
     
+    // Set User Details Field
+    
     public void setUserDetailsField() {
         txtAge.setText(String.valueOf(adopter.getAge()));
         txtEmail.setText(adopter.getEmailId());
@@ -260,6 +262,8 @@ public class AdoptionCheckProcess extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_rdbMaleActionPerformed
 
+    // Initiate BCG Action
+    
     private void btnInitiateBCGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInitiateBCGActionPerformed
         // TODO add your handling code here:
         
