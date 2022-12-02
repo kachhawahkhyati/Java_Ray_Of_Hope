@@ -118,7 +118,8 @@ public class AdoptionRequestJPanel extends javax.swing.JPanel {
         jLabel1.setText("Process Adoption Requests");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 357, -1));
     }// </editor-fold>//GEN-END:initComponents
-
+// Process Button
+    
     private void btnProcessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcessActionPerformed
         // TODO add your handling code here:
         int selectedRow = tblAdoptersRequest.getSelectedRow();
