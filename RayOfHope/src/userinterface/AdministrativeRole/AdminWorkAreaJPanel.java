@@ -22,7 +22,7 @@ import Business.UserAccount.UserAccount;
 
 
 /**
- *
+ * Admin Work Area J Panel 
  * @author parag
  */
 public class AdminWorkAreaJPanel extends javax.swing.JPanel {
