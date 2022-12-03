@@ -55,6 +55,23 @@ public class FundingUnitWorkRequestJPanel extends javax.swing.JPanel {
         populateTable();
     }
 
+    public void populateTable() {
+        DefaultTableModel model = (DefaultTableModel) workRequestJTable.getModel();
+        model.setRowCount(0);
+        for (WorkRequest workRequest : enterprise.getWorkQueue().getWorkRequestList()) {
+            if (workRequest instanceof RegisterDonorRequest) {
+                Object[] row = new Object[model.getColumnCount()];
+                row[0] = workRequest;
+                row[1] = ((RegisterDonorRequest) workRequest).getName();
+                row[2] = ((RegisterDonorRequest) workRequest).getUserEmailId();
+                row[3] = ((RegisterDonorRequest) workRequest).getUserContact();
+                row[4] = ((RegisterDonorRequest) workRequest).getSsn();
+                row[5] = ((RegisterDonorRequest) workRequest).getStatus();
+                model.addRow(row);
+            }
+        }
+    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
