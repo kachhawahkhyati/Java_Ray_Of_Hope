@@ -31,7 +31,7 @@ import userinterface.MedicOrg.MedicMedicinePrescription;
 import userinterface.MedicOrg.MedicLabRequest;
 
 /**
- *
+ * Assign Person JPanel
  * @author shwetabulchandani
  */
 public class AssignPersonJPanel extends javax.swing.JPanel {
