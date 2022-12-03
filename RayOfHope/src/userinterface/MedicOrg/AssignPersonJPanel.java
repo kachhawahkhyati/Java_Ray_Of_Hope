@@ -86,6 +86,8 @@ public class AssignPersonJPanel extends javax.swing.JPanel {
         lblMark.setEnabled(false);
     }
     
+    // Populate Table 
+    
     public void populateLabTable() {
         DefaultTableModel model = (DefaultTableModel) tblLab.getModel();
         model.setRowCount(0);
