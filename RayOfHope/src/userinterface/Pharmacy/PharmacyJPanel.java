@@ -20,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author aniketmirajkar
+ * @author parag
  */
 public class PharmacyJPanel extends javax.swing.JPanel {
 
@@ -108,7 +108,6 @@ public class PharmacyJPanel extends javax.swing.JPanel {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, 850, 150));
 
-        btnAssignToMe.setBackground(new java.awt.Color(255, 255, 255));
         btnAssignToMe.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnAssignToMe.setText("Assign To Me");
         btnAssignToMe.addActionListener(new java.awt.event.ActionListener() {
@@ -118,7 +117,6 @@ public class PharmacyJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(btnAssignToMe, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 360, 170, 30));
 
-        btnProcess.setBackground(new java.awt.Color(255, 255, 255));
         btnProcess.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnProcess.setText("Process");
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
