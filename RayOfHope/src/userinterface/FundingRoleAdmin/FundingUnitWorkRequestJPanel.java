@@ -145,7 +145,46 @@ public class FundingUnitWorkRequestJPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_assignJButtonActionPerformed
 
     private void processJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_processJButtonActionPerformed
-       
+        int selectedRow = workRequestJTable.getSelectedRow();
+        try {
+            if (selectedRow >= 0) {
+                RegisterDonorRequest request = (RegisterDonorRequest) workRequestJTable.getValueAt(selectedRow, 0);
+                //if (request.getStatus().equalsIgnoreCase("Completed")) {
+                if ("Completed".equalsIgnoreCase(request.getStatus())) {
+                    JOptionPane.showMessageDialog(null, "Request already processed.");
+                    return;
+                }
+                Organization org = organizationDirectory.createOrganization(request.getName(), Organization.Type.Donor);
+                Employee emp = org.getEmployeeDirectory().createEmployee(request.getName());
+                UserAccount ua1 = org.getUserAccountDirectory().createUserAccount(request.getUserName(), request.getUserPassword(), emp, new DonorRole());
+                Donor donor = new Donor();
+                int uid = donorDirectory.getDonorList().size() + 1;
+                donor = this.donorDirectory.addNewDonor();
+                donor.setDonorIncome(Long.parseLong(request.getUserContact()));
+                donor.setDonorEmail(request.getUserEmailId());
+                donor.setDonorName(request.getUserName());
+                donor.setDonorSSN(request.getSsn());
+                donor.setUserID(uid);
+                donor.setUserName(ua1.getUsername());
+                DonorWorkRequest awr = new DonorWorkRequest();
+                awr.setStatus("");
+                awr.setMessage("Sponsor request");
+                awr.setSender(ua1);
+                awr.setUserId(donor.getUserID());
+                awr.setName(donor.getUserName());
+                request.setStatus("Completed");
+                String subject = "Account activation";
+                String content = "Dear Sponsor, your account has been activated. You may proceed with further process of funding. \n Thank you";
+                SendMail.sendEmailMessage(request.getUserEmailId(), subject, content);
+                JOptionPane.showMessageDialog(null, "User account has been activated successfully");
+                populateTable();
+            } else {
+                JOptionPane.showMessageDialog(null, "Please select a request message to process.");
+                return;
+            }
+        } catch (Exception e) {
+            //System.out.println("Error");
+        }
     }//GEN-LAST:event_processJButtonActionPerformed
 
 
