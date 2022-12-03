@@ -141,7 +141,23 @@ public class FundingUnitWorkRequestJPanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void assignJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignJButtonActionPerformed
-      
+        int selectedRow = workRequestJTable.getSelectedRow();
+        if (selectedRow >= 0) {
+            WorkRequest request = (WorkRequest) workRequestJTable.getValueAt(selectedRow, 0);
+            //if (request.getStatus().equalsIgnoreCase("Completed")) {
+            if ("Completed".equalsIgnoreCase(request.getStatus())) {
+                JOptionPane.showMessageDialog(null, "Request already processed.");
+                return;
+            } else {
+                request.setReceiver(userAccount);
+                request.setStatus("Pending");
+                populateTable();
+                JOptionPane.showMessageDialog(null, "Request has successfully assigned");
+            }
+        } else {
+            JOptionPane.showMessageDialog(null, "Choose a request to process.");
+            return;
+        }
     }//GEN-LAST:event_assignJButtonActionPerformed
 
     private void processJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_processJButtonActionPerformed
