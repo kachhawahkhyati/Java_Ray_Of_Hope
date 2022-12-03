@@ -14,7 +14,7 @@ import java.awt.CardLayout;
 import javax.swing.JPanel;
 
 /**
- *
+ * Medic Work Area
  * @author shwetabulchandani
  */
 public class MedicWorkArea extends javax.swing.JPanel {
@@ -44,6 +44,8 @@ public class MedicWorkArea extends javax.swing.JPanel {
         valueLabel.setText(medicorganization.getName());
         manageMedicWorkAreaJPanel();
     }
+    
+    // Manage Medic Work Area
     
     private void manageMedicWorkAreaJPanel(){
         MedicJPanel panel = new MedicJPanel(rightSystemAdminPanel, userAccount, medicorganization, enterprise, ecosystem, Persondirectory);
