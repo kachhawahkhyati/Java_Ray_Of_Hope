@@ -24,7 +24,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author mandardeshmukh
+ * @author shwetabulchandani
  */
 public class ViewPersonTable extends javax.swing.JPanel {
 
