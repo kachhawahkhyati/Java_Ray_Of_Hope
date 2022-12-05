@@ -27,7 +27,7 @@ import javax.swing.event.DocumentListener;
 
 
 /**
- *
+ * Adopter Registration JPanel
  * @author shwetabulchandani
  */
 public class AdopterRegistrationJPanel extends javax.swing.JPanel {
