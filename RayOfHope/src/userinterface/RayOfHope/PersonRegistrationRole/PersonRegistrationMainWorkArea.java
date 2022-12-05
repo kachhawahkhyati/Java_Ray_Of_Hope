@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author mandardeshmukh
+ * @author shwetabulchandani
  */
 public class PersonRegistrationMainWorkArea extends javax.swing.JPanel {
 
