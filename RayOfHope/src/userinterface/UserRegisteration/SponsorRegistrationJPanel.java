@@ -41,7 +41,7 @@ public class SponsorRegistrationJPanel extends javax.swing.JPanel {
     private boolean age;
     private boolean ssn;
     /**
-     * Creates new form UserRegistrationJPanel
+     * Creates new form User Registration JPanel
      */
     public SponsorRegistrationJPanel(JPanel userProcessContainer, EcoSystem system) {
         initComponents();
