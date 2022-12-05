@@ -42,7 +42,7 @@ public class AdopterRegistrationJPanel extends javax.swing.JPanel {
     private boolean age;
     private boolean ssn;
     /**
-     * Creates new form AdopterRegistrationJPanel
+     * Creates new form Adopter Registration JPanel 
      */
     public AdopterRegistrationJPanel(JPanel userProcessContainer, EcoSystem system) {
         initComponents();
