@@ -26,7 +26,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author mandardeshmukh
+ * @author shwetabulchandani
  */
 public class ViewPersonDetailsJPanel extends javax.swing.JPanel {
 
