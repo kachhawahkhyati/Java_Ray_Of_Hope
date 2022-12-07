@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author milin
+ * @author shwetabulchandani
  */
 public class StatusSponsor extends javax.swing.JPanel {
 
