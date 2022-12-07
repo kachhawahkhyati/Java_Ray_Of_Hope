@@ -42,6 +42,7 @@ public class LabProcessJPanel extends javax.swing.JPanel {
         lblResult = new javax.swing.JLabel();
         txtResult = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(246, 226, 187));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -51,7 +52,6 @@ public class LabProcessJPanel extends javax.swing.JPanel {
         lblLab.setText("Lab Organization");
         add(lblLab, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, 480, 30));
 
-        btnSave.setBackground(new java.awt.Color(255, 255, 255));
         btnSave.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
@@ -68,8 +68,12 @@ public class LabProcessJPanel extends javax.swing.JPanel {
         add(txtResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 210, 290, 100));
 
         jLabel1.setBackground(new java.awt.Color(246, 226, 187));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/labIcon.png"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, -10, 720, 370));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/LabOrganization-removebg-preview.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 310, 840, 370));
+
+        jLabel2.setBackground(new java.awt.Color(246, 226, 187));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/labIcon.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, -10, 720, 370));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
@@ -95,6 +99,7 @@ public class LabProcessJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnSave;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel lblLab;
     private javax.swing.JLabel lblResult;
     private javax.swing.JTextField txtResult;
