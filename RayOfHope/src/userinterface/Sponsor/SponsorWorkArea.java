@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author milin
+ * @author shwetabulchandani
  */
 public class SponsorWorkArea extends javax.swing.JPanel {
 
