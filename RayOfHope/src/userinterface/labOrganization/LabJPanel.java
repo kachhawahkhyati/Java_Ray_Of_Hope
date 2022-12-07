@@ -54,6 +54,7 @@ public class LabJPanel extends javax.swing.JPanel {
         btnAssignToMe = new javax.swing.JButton();
         btnProcess = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(246, 226, 187));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -88,7 +89,6 @@ public class LabJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 790, 130));
 
-        btnAssignToMe.setBackground(new java.awt.Color(255, 255, 255));
         btnAssignToMe.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnAssignToMe.setText("Assign To Me");
         btnAssignToMe.addActionListener(new java.awt.event.ActionListener() {
@@ -98,7 +98,6 @@ public class LabJPanel extends javax.swing.JPanel {
         });
         add(btnAssignToMe, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 420, 160, 30));
 
-        btnProcess.setBackground(new java.awt.Color(255, 255, 255));
         btnProcess.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnProcess.setText("Process");
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
@@ -109,8 +108,12 @@ public class LabJPanel extends javax.swing.JPanel {
         add(btnProcess, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 420, 150, 30));
 
         jLabel1.setBackground(new java.awt.Color(246, 226, 187));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Lab_tech_2.png"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, -130, 730, 520));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/My project-17.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 350, 730, 520));
+
+        jLabel3.setBackground(new java.awt.Color(246, 226, 187));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Lab_tech_2.png"))); // NOI18N
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, -130, 730, 520));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAssignToMeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAssignToMeActionPerformed
@@ -174,6 +177,7 @@ public class LabJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnProcess;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tblLab;
     // End of variables declaration//GEN-END:variables
