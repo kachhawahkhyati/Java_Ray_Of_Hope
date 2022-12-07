@@ -119,8 +119,8 @@ public class StatusSponsor extends javax.swing.JPanel {
 
         add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 910, 137));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/finance-png-20994.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 740, 480));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/paymentstatus.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 120, 860, 520));
     }// </editor-fold>//GEN-END:initComponents
 
 
