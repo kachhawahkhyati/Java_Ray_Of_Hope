@@ -116,6 +116,7 @@ private boolean validateExpDate(){
         btnPay = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         jXDatePicker1 = new org.jdesktop.swingx.JXDatePicker();
+        jLabel7 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(246, 226, 187));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -176,6 +177,9 @@ private boolean validateExpDate(){
         jLabel6.setText("please enter your 16 digits card number");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 150, 270, 30));
         add(jXDatePicker1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 310, 180, -1));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/white-credit-cards-payment-icon-transparent-background-21635327066kbzkpmrwpm-2_bgremoval.ai.png"))); // NOI18N
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 500, 520));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnPayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPayActionPerformed
@@ -275,6 +279,7 @@ private boolean validateExpDate(){
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private org.jdesktop.swingx.JXDatePicker jXDatePicker1;
     private javax.swing.JTextField txtCVV;
     private javax.swing.JTextField txtPostal;
