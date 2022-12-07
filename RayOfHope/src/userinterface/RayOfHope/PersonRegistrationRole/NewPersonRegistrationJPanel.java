@@ -130,7 +130,6 @@ public class NewPersonRegistrationJPanel extends javax.swing.JPanel {
         photoText.setMaximumSize(new java.awt.Dimension(6, 20));
         add(photoText, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 330, 190, 30));
 
-        btnRegisterChild.setBackground(new java.awt.Color(255, 255, 255));
         btnRegisterChild.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnRegisterChild.setText("Register");
         btnRegisterChild.addActionListener(new java.awt.event.ActionListener() {
@@ -140,7 +139,6 @@ public class NewPersonRegistrationJPanel extends javax.swing.JPanel {
         });
         add(btnRegisterChild, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 420, 130, -1));
 
-        uploadButton.setBackground(new java.awt.Color(255, 255, 255));
         uploadButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         uploadButton.setText("Upload");
         uploadButton.addActionListener(new java.awt.event.ActionListener() {
@@ -166,7 +164,6 @@ public class NewPersonRegistrationJPanel extends javax.swing.JPanel {
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 280, 130, 35));
         add(txtMark, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 280, 190, 30));
 
-        cmbAge.setBackground(new java.awt.Color(255, 255, 255));
         cmbAge.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78" }));
         add(cmbAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 160, 190, -1));
 
@@ -179,7 +176,9 @@ public class NewPersonRegistrationJPanel extends javax.swing.JPanel {
 
         noBtn.setText("No");
         add(noBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 380, -1, -1));
-        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 420, 720, 350));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/istockphoto-1057970546-612x612-removebg-preview.png"))); // NOI18N
+        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 40, 720, 350));
         add(jXDatePicker1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 240, 190, -1));
     }// </editor-fold>//GEN-END:initComponents
 
