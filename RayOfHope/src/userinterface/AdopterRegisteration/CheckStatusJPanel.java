@@ -97,6 +97,7 @@ public class CheckStatusJPanel extends javax.swing.JPanel {
         tblReq = new javax.swing.JTable();
         btnProceed = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(246, 226, 187));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -139,8 +140,11 @@ public class CheckStatusJPanel extends javax.swing.JPanel {
         });
         add(btnProceed, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 330, 150, 30));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/364424375b4363112bce7cccd18a2d40.gif"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 920, 400));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1810720.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 280, 920, 400));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/364424375b4363112bce7cccd18a2d40.gif"))); // NOI18N
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, 0, 920, 400));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnProceedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProceedActionPerformed
@@ -164,6 +168,7 @@ public class CheckStatusJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnProceed;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JTable tblReq;
     private javax.swing.JScrollPane tblRequest;
     // End of variables declaration//GEN-END:variables
