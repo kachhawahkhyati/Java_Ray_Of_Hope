@@ -254,7 +254,6 @@ public class AssignPersonJPanel extends javax.swing.JPanel {
         txtBP.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         add(txtBP, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 220, 160, -1));
 
-        btnRequestTest.setBackground(new java.awt.Color(255, 255, 255));
         btnRequestTest.setText("Request Lab Test");
         btnRequestTest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -263,7 +262,6 @@ public class AssignPersonJPanel extends javax.swing.JPanel {
         });
         add(btnRequestTest, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 280, 150, -1));
 
-        btnPrescribeMedication.setBackground(new java.awt.Color(255, 255, 255));
         btnPrescribeMedication.setText("Prescribe Medication");
         btnPrescribeMedication.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -280,7 +278,6 @@ public class AssignPersonJPanel extends javax.swing.JPanel {
         btnFemale.setText("Female");
         add(btnFemale, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 190, 120, -1));
 
-        btnSave.setBackground(new java.awt.Color(255, 255, 255));
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -349,7 +346,6 @@ public class AssignPersonJPanel extends javax.swing.JPanel {
         lblMedicationHistory.setText("Medication History");
         add(lblMedicationHistory, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 520, 190, -1));
 
-        btnBack.setBackground(new java.awt.Color(255, 255, 255));
         btnBack.setForeground(new java.awt.Color(255, 51, 51));
         btnBack.setBorder(BorderFactory.createEmptyBorder(4, 4, 4, 4));
         btnBack.setContentAreaFilled(false);
@@ -361,7 +357,7 @@ public class AssignPersonJPanel extends javax.swing.JPanel {
         });
         add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 70, 50));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Screen Shot 2021-12-12 at 3.23.00 PM.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/3076404-removebg-preview.png"))); // NOI18N
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, 860, 660));
     }// </editor-fold>//GEN-END:initComponents
 
