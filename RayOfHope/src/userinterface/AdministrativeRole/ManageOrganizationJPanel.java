@@ -167,8 +167,8 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         add(orgInstanceName, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 390, 210, 30));
 
         jLabel3.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MicrosoftTeams-image copy.png"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 160, 640, 570));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/My project.png"))); // NOI18N
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 210, 640, 570));
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(71, 52, 58));
