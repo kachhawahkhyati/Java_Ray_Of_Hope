@@ -110,7 +110,7 @@ public class AdoptionRequestJPanel extends javax.swing.JPanel {
         jLabel2.setForeground(new java.awt.Color(71, 52, 58));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/grandparents-parents-kids-icon-family-design-vector-graph-cartoon-concept-represented-isolated-colorfull-illustration-74239628 (1).png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 730, 530));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 730, 530));
 
         jLabel1.setFont(new java.awt.Font("SansSerif", 1, 20)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(71, 52, 58));
