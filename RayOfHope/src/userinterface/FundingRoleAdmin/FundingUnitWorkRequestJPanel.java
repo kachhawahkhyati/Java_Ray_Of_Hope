@@ -125,7 +125,6 @@ public class FundingUnitWorkRequestJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, 870, 170));
 
-        assignJButton.setBackground(new java.awt.Color(255, 255, 255));
         assignJButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         assignJButton.setForeground(new java.awt.Color(25, 56, 82));
         assignJButton.setText("Assign To Me");
@@ -136,7 +135,6 @@ public class FundingUnitWorkRequestJPanel extends javax.swing.JPanel {
         });
         add(assignJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 400, -1, -1));
 
-        processJButton.setBackground(new java.awt.Color(255, 255, 255));
         processJButton.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         processJButton.setForeground(new java.awt.Color(25, 56, 82));
         processJButton.setText("Process");
@@ -153,8 +151,8 @@ public class FundingUnitWorkRequestJPanel extends javax.swing.JPanel {
         jLabel1.setText("Manage Sponsorship Requests");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 60, 431, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Screen Shot 2021-12-12 at 3.23.00 PM.png"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 230, 960, 620));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Sponsorluk2-removebg-preview.png"))); // NOI18N
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 180, 960, 620));
     }// </editor-fold>//GEN-END:initComponents
 
     private void assignJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignJButtonActionPerformed
