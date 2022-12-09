@@ -152,16 +152,16 @@ public class SponsorWorkArea extends javax.swing.JPanel {
         jPanel3.add(lblViewYourStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 280, 50));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-sponsorship-64-2.png"))); // NOI18N
         jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 190, 200));
 
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel3.setText("Hello");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 50, 20));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 50, 20));
 
         valueLabel.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
-        jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 210, 100, 20));
+        jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 210, 100, 20));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
