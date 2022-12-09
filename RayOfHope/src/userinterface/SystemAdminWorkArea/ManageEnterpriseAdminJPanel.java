@@ -59,14 +59,15 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         passwordJPasswordField = new javax.swing.JPasswordField();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(246, 226, 187));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel3.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel3.setText("Enterprise");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 370, 150, 30));
+        jLabel3.setText("UserName");
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 430, 150, 30));
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -137,7 +138,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
 
         jLabel6.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/admin-management-tools-removebg-preview.png"))); // NOI18N
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 400, 600, 510));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 280, 600, 510));
 
         passwordJPasswordField.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         add(passwordJPasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 470, 250, 30));
@@ -151,6 +152,11 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel8.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, 840, 400));
+
+        jLabel9.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel9.setText("Enterprise");
+        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 370, 150, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void submitJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitJButtonActionPerformed
@@ -226,6 +232,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField nameJTextField;
     private javax.swing.JComboBox networkJComboBox;
