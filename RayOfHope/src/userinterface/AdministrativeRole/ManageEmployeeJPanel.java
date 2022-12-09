@@ -167,7 +167,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/My project.png"))); // NOI18N
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 270, 690, 430));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 280, 690, 430));
 
         jLabel5.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(71, 52, 58));

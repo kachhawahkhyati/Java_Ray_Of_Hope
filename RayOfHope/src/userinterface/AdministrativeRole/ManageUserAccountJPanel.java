@@ -188,7 +188,7 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
 
         jLabel7.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/My project.png"))); // NOI18N
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 150, 570, 560));
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 160, 570, 560));
 
         jLabel6.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(71, 52, 58));
