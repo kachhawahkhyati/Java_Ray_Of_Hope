@@ -119,7 +119,7 @@ public class VerificationWorkArea extends javax.swing.JPanel {
         jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 220, 130, 20));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/lens.png"))); // NOI18N
-        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 210, 200));
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, 210, 200));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
