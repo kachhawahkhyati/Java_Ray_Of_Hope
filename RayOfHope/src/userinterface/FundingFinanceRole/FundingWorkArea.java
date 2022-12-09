@@ -76,9 +76,9 @@ public class FundingWorkArea extends javax.swing.JPanel {
         lblViewYourStatus = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         lblViewStatus = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         valueLabel = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         rightSystemAdminPanel = new javax.swing.JPanel();
 
         setBackground(new java.awt.Color(215, 81, 81));
@@ -139,10 +139,6 @@ public class FundingWorkArea extends javax.swing.JPanel {
 
         jPanel3.add(lblViewYourStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 330, 280, 40));
 
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
-        jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 200, 210));
-
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel3.setText("Organization");
@@ -150,6 +146,9 @@ public class FundingWorkArea extends javax.swing.JPanel {
 
         valueLabel.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 240, 170, 20));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mgr2.png"))); // NOI18N
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 200, 210));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
@@ -195,9 +194,9 @@ public class FundingWorkArea extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel DonorWorkArea;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JLabel lblViewStatus;
