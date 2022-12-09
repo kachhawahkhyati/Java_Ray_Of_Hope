@@ -86,7 +86,6 @@ public class MedicMedicinePrescription extends javax.swing.JPanel {
         txtPrescription.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         add(txtPrescription, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 200, 270, 90));
 
-        Save.setBackground(new java.awt.Color(255, 255, 255));
         Save.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         Save.setText("Save");
         Save.addActionListener(new java.awt.event.ActionListener() {
@@ -96,9 +95,8 @@ public class MedicMedicinePrescription extends javax.swing.JPanel {
         });
         add(Save, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 350, 120, 30));
 
-        jLabel2.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Screen Shot 2021-12-12 at 3.16.06 PM.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, -80, 550, 570));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/prescribtion.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, 550, 570));
     }// </editor-fold>//GEN-END:initComponents
 
     private void SaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SaveActionPerformed
