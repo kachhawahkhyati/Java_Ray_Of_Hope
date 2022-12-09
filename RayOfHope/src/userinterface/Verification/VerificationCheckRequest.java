@@ -94,7 +94,6 @@ public class VerificationCheckRequest extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblRequest);
 
-        btnAssign.setBackground(new java.awt.Color(255, 255, 255));
         btnAssign.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnAssign.setText("Assign to me");
         btnAssign.addActionListener(new java.awt.event.ActionListener() {
@@ -103,7 +102,6 @@ public class VerificationCheckRequest extends javax.swing.JPanel {
             }
         });
 
-        btnProcess.setBackground(new java.awt.Color(255, 255, 255));
         btnProcess.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnProcess.setText("Process");
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
