@@ -59,9 +59,9 @@ public class EspousalMainWorkArea extends javax.swing.JPanel {
         Adoption = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         Ado = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         valueLabel = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         rightSystemAdminPanel = new javax.swing.JPanel();
 
         setBackground(new java.awt.Color(255, 204, 153));
@@ -95,10 +95,6 @@ public class EspousalMainWorkArea extends javax.swing.JPanel {
 
         jPanel3.add(Adoption, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 240, 280, -1));
 
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
-        jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 10, 180, 200));
-
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel3.setText("Organization");
@@ -107,6 +103,9 @@ public class EspousalMainWorkArea extends javax.swing.JPanel {
 
         valueLabel.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 210, 110, 20));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/manager.png"))); // NOI18N
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 180, 200));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
@@ -141,9 +140,9 @@ public class EspousalMainWorkArea extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Ado;
     private javax.swing.JPanel Adoption;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel rightSystemAdminPanel;
     private javax.swing.JLabel valueLabel;
