@@ -109,7 +109,7 @@ public class FinanceWorkArea extends javax.swing.JPanel {
         jPanel3.add(FinanceRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 240, 280, -1));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/financeadmin.png"))); // NOI18N
         jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 230, 180));
 
         jLabel3.setBackground(new java.awt.Color(0, 153, 102));
