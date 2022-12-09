@@ -122,8 +122,8 @@ public class AdopterWorkArea extends javax.swing.JPanel {
         jPanel3.add(Adopter, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 280, -1));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
-        jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 190, 190));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-adoption-100.png"))); // NOI18N
+        jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 170, 140));
 
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 16)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);

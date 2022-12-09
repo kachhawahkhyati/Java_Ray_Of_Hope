@@ -137,8 +137,8 @@ public class PersonSelectionJPanel extends javax.swing.JPanel {
         });
         add(btnAdopt, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 270, 100, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/female doc and patients.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 830, 520));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/My project.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 30, 830, 520));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAdoptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAdoptActionPerformed
