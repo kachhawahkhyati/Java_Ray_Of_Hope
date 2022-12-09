@@ -68,11 +68,11 @@ public class VerificationWorkArea extends javax.swing.JPanel {
         systemAdminPanel = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         bgcAndCriminal = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
         BGCAndCri = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         valueLabel = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         rightSystemAdminPanel = new javax.swing.JPanel();
 
         jPanel1.setBackground(new java.awt.Color(255, 204, 204));
@@ -94,9 +94,6 @@ public class VerificationWorkArea extends javax.swing.JPanel {
         });
         bgcAndCriminal.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        bgcAndCriminal.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, 37, 36));
-
         BGCAndCri.setBackground(new java.awt.Color(255, 204, 204));
         BGCAndCri.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         BGCAndCri.setText("Process BGC & Criminal Check");
@@ -107,11 +104,11 @@ public class VerificationWorkArea extends javax.swing.JPanel {
         });
         bgcAndCriminal.add(BGCAndCri, new org.netbeans.lib.awtextra.AbsoluteConstraints(49, 6, 225, 36));
 
-        jPanel3.add(bgcAndCriminal, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 280, -1));
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/manageIcon.png"))); // NOI18N
+        bgcAndCriminal.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 37, -1));
 
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
-        jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 210, 200));
+        jPanel3.add(bgcAndCriminal, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 280, -1));
 
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -120,6 +117,9 @@ public class VerificationWorkArea extends javax.swing.JPanel {
 
         valueLabel.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 220, 130, 20));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/lens.png"))); // NOI18N
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 210, 200));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
@@ -177,9 +177,9 @@ public class VerificationWorkArea extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel BGCAndCri;
     private javax.swing.JPanel bgcAndCriminal;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel rightSystemAdminPanel;
