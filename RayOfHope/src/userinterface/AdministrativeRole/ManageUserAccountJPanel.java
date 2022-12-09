@@ -187,8 +187,8 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
         add(roleJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 400, 200, 30));
 
         jLabel7.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/My project.png"))); // NOI18N
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 160, 570, 560));
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/491-4918411_thumb-image-user-management-cartoon-hd-png-download-removebg-preview.png"))); // NOI18N
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 290, 570, 560));
 
         jLabel6.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(71, 52, 58));

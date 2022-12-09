@@ -166,7 +166,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 106, 35));
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/My project.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/online-staff-management-software-2-removebg-preview.png"))); // NOI18N
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 280, 690, 430));
 
         jLabel5.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
