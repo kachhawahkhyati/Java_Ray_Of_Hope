@@ -64,13 +64,15 @@ public class PersonRegistrationMainWorkArea extends javax.swing.JPanel {
         jPanel3 = new javax.swing.JPanel();
         LabNetworkPanel = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        childRegistration = new javax.swing.JLabel();
         lblViewChild = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         view = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         valueLabel = new javax.swing.JLabel();
+        childRegistration = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         rightSystemAdminPanel = new javax.swing.JPanel();
 
         setLayout(new java.awt.BorderLayout());
@@ -92,15 +94,6 @@ public class PersonRegistrationMainWorkArea extends javax.swing.JPanel {
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
-        childRegistration.setBackground(new java.awt.Color(0, 152, 102));
-        childRegistration.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        childRegistration.setText("Person Registration Area");
-        childRegistration.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                childRegistrationMousePressed(evt);
-            }
-        });
-
         javax.swing.GroupLayout LabNetworkPanelLayout = new javax.swing.GroupLayout(LabNetworkPanel);
         LabNetworkPanel.setLayout(LabNetworkPanelLayout);
         LabNetworkPanelLayout.setHorizontalGroup(
@@ -108,17 +101,13 @@ public class PersonRegistrationMainWorkArea extends javax.swing.JPanel {
             .addGroup(LabNetworkPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(childRegistration, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addGap(237, 237, 237))
         );
         LabNetworkPanelLayout.setVerticalGroup(
             LabNetworkPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(LabNetworkPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(LabNetworkPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(childRegistration, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -135,18 +124,38 @@ public class PersonRegistrationMainWorkArea extends javax.swing.JPanel {
         jPanel3.add(lblViewChild, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, 230, 40));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-administrator-male-100.png"))); // NOI18N
         jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 10, 180, 180));
         jPanel3.add(view, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 280, 40));
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 280, 50, 40));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 50, 40));
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel4.setText("Organization");
-        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 190, 110, 20));
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 110, 20));
 
         valueLabel.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
-        jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 190, 110, 20));
+        jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 190, 110, 20));
+
+        childRegistration.setBackground(new java.awt.Color(0, 152, 102));
+        childRegistration.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        childRegistration.setText("Person Registration Area");
+        childRegistration.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                childRegistrationMousePressed(evt);
+            }
+        });
+        jPanel3.add(childRegistration, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 225, -1));
+
+        jLabel5.setBackground(new java.awt.Color(255, 204, 153));
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-document-writer-30.png"))); // NOI18N
+        jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+
+        jLabel6.setBackground(new java.awt.Color(255, 204, 153));
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-archive-list-of-parts-30.png"))); // NOI18N
+        jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 280, -1, -1));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
@@ -195,6 +204,8 @@ public class PersonRegistrationMainWorkArea extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JLabel lblViewChild;
     private javax.swing.JPanel rightSystemAdminPanel;
