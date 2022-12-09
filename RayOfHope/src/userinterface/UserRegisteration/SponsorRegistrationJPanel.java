@@ -119,7 +119,7 @@ public class SponsorRegistrationJPanel extends javax.swing.JPanel {
         numValidate = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(246, 226, 187));
         setMinimumSize(new java.awt.Dimension(1338, 900));
         setPreferredSize(new java.awt.Dimension(1338, 900));
         setRequestFocusEnabled(false);
@@ -251,7 +251,6 @@ public class SponsorRegistrationJPanel extends javax.swing.JPanel {
         });
         add(txtContact, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 450, 240, 40));
 
-        btnRegister.setBackground(new java.awt.Color(255, 255, 255));
         btnRegister.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnRegister.setForeground(new java.awt.Color(25, 56, 82));
         btnRegister.setText("Register");
@@ -382,8 +381,8 @@ public class SponsorRegistrationJPanel extends javax.swing.JPanel {
 
         jLabel2.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(71, 52, 58));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MicrosoftTeams-image.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, -30, 1110, 720));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/5ff86e5a9148b7b96c8c2c06_UtilitÃ©sociale-bien_vieillir-liensocial-les_amis_d_Hubert_2-removebg-preview.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 340, 1110, 720));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterActionPerformed

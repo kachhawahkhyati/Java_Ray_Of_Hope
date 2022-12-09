@@ -122,7 +122,7 @@ public class AdopterRegistrationJPanel extends javax.swing.JPanel {
         ssnCorrect = new javax.swing.JLabel();
         ssnValidate = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(246, 226, 187));
         setMinimumSize(new java.awt.Dimension(1338, 900));
         setPreferredSize(new java.awt.Dimension(1338, 900));
         setRequestFocusEnabled(false);
@@ -201,7 +201,6 @@ public class AdopterRegistrationJPanel extends javax.swing.JPanel {
         });
         add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 370, 250, 40));
 
-        btnRegister.setBackground(new java.awt.Color(255, 255, 255));
         btnRegister.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnRegister.setForeground(new java.awt.Color(25, 56, 82));
         btnRegister.setText("Register");
@@ -258,8 +257,8 @@ public class AdopterRegistrationJPanel extends javax.swing.JPanel {
 
         jLabel2.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(71, 52, 58));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Screen Shot 2021-12-12 at 5.30.29 AM.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 120, 940, 470));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/5ff86e5a9148b7b96c8c2c06_UtilitÃ©sociale-bien_vieillir-liensocial-les_amis_d_Hubert_2-removebg-preview.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 460, 940, 470));
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(71, 52, 58));
