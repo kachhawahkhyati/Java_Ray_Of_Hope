@@ -68,8 +68,8 @@ public class MedicJPanel extends javax.swing.JPanel {
                 row[3] = request.getStatus();
                 row[4] = request.getSender().getEmployee().getId();
                 row[5] = request.getReceiver() == null ? null : request.getReceiver().getEmployee().getName();
-                String result = ((MedicalAssistanceWorkRequest) request).getTestResult();
-                row[6] = result == null ? "Waiting" : result;
+//                String result = ((MedicalAssistanceWorkRequest) request).getTestResult();
+//                row[6] = result == null ? "Waiting" : result;
                 model.addRow(row);
             }
         }
@@ -102,17 +102,17 @@ public class MedicJPanel extends javax.swing.JPanel {
 
         tblMedic.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null}
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
             },
             new String [] {
-                "Message", "Person ID", "Person Name", "Status", "Sender", "Receiver", "Comments"
+                "Message", "Person ID", "Person Name", "Status", "Sender", "Receiver"
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false
+                false, false, false, false, false, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
@@ -123,7 +123,6 @@ public class MedicJPanel extends javax.swing.JPanel {
 
         add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 970, 210));
 
-        btnAssignToMe.setBackground(new java.awt.Color(255, 255, 255));
         btnAssignToMe.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnAssignToMe.setText("Assign To Me");
         btnAssignToMe.addActionListener(new java.awt.event.ActionListener() {
@@ -133,7 +132,6 @@ public class MedicJPanel extends javax.swing.JPanel {
         });
         add(btnAssignToMe, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 430, 170, -1));
 
-        btnProcess.setBackground(new java.awt.Color(255, 255, 255));
         btnProcess.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         btnProcess.setText("Process");
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
