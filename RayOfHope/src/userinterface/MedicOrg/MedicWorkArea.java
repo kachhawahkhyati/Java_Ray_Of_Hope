@@ -112,14 +112,14 @@ public class MedicWorkArea extends javax.swing.JPanel {
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel3.setText("Organization");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 90, 30));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 90, 30));
 
         valueLabel.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         valueLabel.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 170, 120, 30));
+        jPanel3.add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 170, 120, 30));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-administrator-male-100.png"))); // NOI18N
         jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 280, 150));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
