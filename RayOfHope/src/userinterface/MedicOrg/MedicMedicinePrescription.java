@@ -114,7 +114,7 @@ public class MedicMedicinePrescription extends javax.swing.JPanel {
             pharrequest.setStatus("Prescription Sent");
             pharrequest.setPrescription(prescription);
             request.setStatus("Medicine Prescribed");
-            request.setTestResult("Child Treated and medicines Prescribed");
+            request.setTestResult("Person Treated and medicines Prescribed");
             JOptionPane.showMessageDialog(this, "Medicines prescribed! ");
             Organization org = null;
             for (Organization organization : enterprise.getOrganizationDirectory().getOrganizationList()) {
