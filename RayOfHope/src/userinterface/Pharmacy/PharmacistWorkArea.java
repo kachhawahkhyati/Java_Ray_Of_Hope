@@ -112,7 +112,7 @@ public class PharmacistWorkArea extends javax.swing.JPanel {
         jPanel3.add(managePharmacyPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 280, -1));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-pharmacy-62.png"))); // NOI18N
         jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 200, 200));
 
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
