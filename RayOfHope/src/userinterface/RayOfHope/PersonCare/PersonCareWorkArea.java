@@ -137,7 +137,7 @@ public class PersonCareWorkArea extends javax.swing.JPanel {
         LeftPanel.add(lblViewChild, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 280, -1));
 
         lblPic.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblPic.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/4512612.png"))); // NOI18N
+        lblPic.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-admin-settings-male-100.png"))); // NOI18N
         LeftPanel.add(lblPic, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 180, 170));
 
         lblOrg.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
@@ -206,7 +206,7 @@ public class PersonCareWorkArea extends javax.swing.JPanel {
         systemAdminPanelLayout.setVerticalGroup(
             systemAdminPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(LeftPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 840, Short.MAX_VALUE)
+            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 900, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

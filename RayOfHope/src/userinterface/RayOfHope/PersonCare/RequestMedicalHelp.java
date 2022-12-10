@@ -105,8 +105,8 @@ public class RequestMedicalHelp extends javax.swing.JPanel {
         lblHeading.setText("Request Medical Help");
         jPanel1.add(lblHeading, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 50, 460, 30));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Screen Shot 2021-12-12 at 3.23.00 PM.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 170, 450, 550));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/1000_F_322061962_pRgrKxX7vsvfQwitek1W7hDBicgs11Tg-removebg-preview.png"))); // NOI18N
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, 340, 650, 470));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
