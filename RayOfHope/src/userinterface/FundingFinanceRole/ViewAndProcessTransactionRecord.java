@@ -84,7 +84,7 @@ public class ViewAndProcessTransactionRecord extends javax.swing.JPanel {
 
             },
             new String [] {
-                "Message", "Sender", "Receiver", "Child ID", "Child Name", "Remarks", "Status"
+                "Message", "Sender", "Receiver", "Person ID", "Person Name", "Remarks", "Status"
             }
         ) {
             boolean[] canEdit = new boolean [] {

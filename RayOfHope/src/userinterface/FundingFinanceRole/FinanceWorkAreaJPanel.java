@@ -73,7 +73,7 @@ public FinanceWorkAreaJPanel(JPanel userProcessContainer, UserAccount account, O
 
             },
             new String [] {
-                "Message", "Sender", "Receiver", "Child ID", "Remarks", "Results", "Status"
+                "Message", "Sender", "Receiver", "Person ID", "Remarks", "Results", "Status"
             }
         ) {
             boolean[] canEdit = new boolean [] {
